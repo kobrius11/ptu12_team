@@ -11,7 +11,7 @@ def vardenis_pavardenis():
     return render_template('vardenis_pavardenis.html/')
 
 @app.route('/Erikas_Jankauskas/')
-def vardenis_pavardenis():
+def erikas_jankauskas():
     return render_template('Erikas_Jankauskas.html/')
 
 @app.route('/petras_ans/')
@@ -33,10 +33,6 @@ def renaldas():
 @app.route('/mantvydas/')
 def mantvydas():
     return render_template('mantvydas.html/')
-
-@app.route('/vardenis_pavardenis/')
-def vardenis_pavardenis():
-    return render_template('vardenis_pavardenis.html')
 
 @app.route('/robertas_sapronavicius/')
 def robertas_sapronavicius():
@@ -70,11 +66,9 @@ def zygimantas_bickus():
 def deividas_skestenis():
     return render_template('deividas_skestenis.html')
 
-
 @app.route('/raimonda_anisimova/')
 def raimonda_anisimova():
     return render_template('raimonda_anisimova.html/')
-
 
 @app.route('/evelina_stonyte/')
 def evelina_stonyte():
