@@ -48,3 +48,7 @@ ul.menu-horizontal {
     color: #fe84c7;
     text-decoration: silver;
 }
+img {
+    max-width: 100%;
+    height: auto;
+  }
