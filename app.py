@@ -62,6 +62,10 @@ def raimonda_anisimova():
 def evelina_stonyte():
     return render_template('evelina_stonyte.html/')
 
+@app.route("/tadas_z/")
+def tadas_z():
+    return render_template("/tadas_z.html/")
+
 @app.route('/jurate_krupaviciene/')
 def jurate_krupaviciene():
     return render_template('jurate_krupaviciene.html/')
