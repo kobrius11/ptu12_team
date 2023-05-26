@@ -46,6 +46,10 @@ def arnas_bolisas():
 def karolis_jasadavicius():
     return render_template('karolis_jasadavicius.html/')
 
+@app.route('/evelina_stonyte/')
+def evelina_stonyte():
+    return render_template('evelina_stonyte.html/')
+
 if __name__ == "__main__":
     app.run(debug=True)
 5
