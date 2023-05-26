@@ -23,7 +23,8 @@ main .content {
 }
 main sidebar {
     display: block;
-    width: 10rem;
+    min-width: 10rem;
+    max-width: 10rem;
     background-color: #eee;
     /* min-height: 200px; */
 }
@@ -42,4 +43,8 @@ ul.menu-vertical {
 }
 ul.menu-horizontal {
     flex-direction: row;
+}
+.broken {
+    color: #666;
+    text-decoration: line-through;
 }
