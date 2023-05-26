@@ -18,6 +18,10 @@ def karolis_venckus():
 def renaldas():
     return render_template('renaldas_zvega.html')
 
+@app.route('/mantvydas/')
+def mantvydas():
+    return render_template('mantvydas.html/')
+
 @app.route('/vardenis_pavardenis/')
 def vardenis_pavardenis():
     return render_template('vardenis_pavardenis.html')
