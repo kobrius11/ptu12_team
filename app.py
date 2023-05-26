@@ -30,6 +30,26 @@ def mantvydas():
 def vardenis_pavardenis():
     return render_template('vardenis_pavardenis.html')
 
+@app.route('/robertas_sapronavicius/')
+def robertas_sapronavicius():
+    return render_template('robertas_sapronavicius.html')
+
+@app.route('/mindaugas_turauskas/')
+def mindaugas_turauskas():
+    return render_template('mindaugas_turauskas.html/')
+
+@app.route('/milda_auglyte/')
+def milda_auglyte():
+    return render_template('milda_auglyte.html/')
+
+@app.route('/arnas_bolisas/')
+def arnas_bolisas():
+    return render_template('arnas_bolisas.html')
+
+@app.route('/karolis_jasadavicius/')
+def karolis_jasadavicius():
+    return render_template('karolis_jasadavicius.html/')
+
 @app.route('/bronius_grigaras/')
 def bronius_grigaras():
     return render_template('bronius_grigaras.html')
