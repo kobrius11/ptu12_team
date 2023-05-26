@@ -10,5 +10,9 @@ def index():
 def vardenis_pavardenis():
     return render_template('vardenis_pavardenis.html/')
 
+@app.route('/mindaugas_turauskas/')
+def mindaugas_turauskas():
+    return render_template('mindaugas_turauskas.html/')
+
 if __name__ == "__main__":
     app.run(debug=True)
