@@ -1,0 +1,34 @@
+.renald_content {
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+.renald_content p, h2, img {
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.renald_content h2 {
+    animation-delay: 1s;
+}
+
+.renald_content p {
+    animation-delay: 2s;
+}
+
+.renald_content img {
+    animation-delay: 4s;
+}
+
+#logo {
+    size: 50;
+}
