@@ -50,15 +50,26 @@ def arnas_bolisas():
 def karolis_jasadavicius():
     return render_template('karolis_jasadavicius.html/')
 
-<<<<<<< HEAD
 @app.route('/zygimantas_bickus/')
 def zygimantas_bickus():
     return render_template('zygimantas_bickus.html/')
-=======
+
+@app.route('/raimonda_anisimova/')
+def raimonda_anisimova():
+    return render_template('raimonda_anisimova.html/')
+
+
 @app.route('/evelina_stonyte/')
 def evelina_stonyte():
     return render_template('evelina_stonyte.html/')
->>>>>>> da2c3d170421f87d59062aa35592b4375fe19a24
+
+@app.route('/jurate_krupaviciene/')
+def jurate_krupaviciene():
+    return render_template('jurate_krupaviciene.html/')
+
+@app.route('/karolis_tamulevicius/')
+def karolis_tamulevicius():
+    return render_template('karolis_tamulevicius.html/')
 
 if __name__ == "__main__":
     app.run(debug=True)
