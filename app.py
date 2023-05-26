@@ -8,7 +8,11 @@ def index():
 
 @app.route('/vardenis_pavardenis/')
 def vardenis_pavardenis():
-    return render_template('vardenis_pavardenis.html/')
+    return render_template('vardenis_pavardenis.html')
+
+@app.route('/deividas_skestenis/')
+def deividas_skestenis():
+    return render_template('deividas_skestenis.html')
 
 if __name__ == "__main__":
     app.run(debug=True)
