@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PTU12 Team</title>
+    <link rel="stylesheet" href="/static/evelina_style.css">
+</head>
+<body style="background-color:white;">
+    <header style="background-color: #f7d8c5;">
+        {% include 'includes/menu.html' %}
+    </header>
+    <main>
+        <sidebar>
+            {% include 'includes/sidebar.html' %}
+        </sidebar>
+        <div class="content">
+            <h1>Evelina Stonytė</h1>
+            <img class="logo" src="/static/evelina.jpg">
+            <h2>About</h2>
+            <p>
+                I have 2 years of experience in the field of laser physics, but I have recently discovered a new passion for programming. 
+                Currently, I am studying Python through Code Academy to further develop my skills and knowledge in this area.
+            </p>
+            <h3>Experience</h3>
+            <p>
+                Specialist at Laser Research center<br> 
+                Audio engginering
+            </p>
+            <h3>Education</h3>
+            <p>
+                Applied Physics at Vilnius university
+            </p>
+            <h3>Hobbies</h3>
+            <h4>Musician</h4>
+            <p>
+                Keyboardist at dargana <br>
+                Keyboardist at Buda Collective<br>
+            </p>
+        </div>
+    </main>
+    <footer>
+        {% include 'includes/footer.html' %}
+    </footer>
+</body>
+</html>

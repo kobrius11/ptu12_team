@@ -6,6 +6,10 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
+@app.route('/petras_ans/')
+def petras_anskaitis():
+    return render_template('petras_ans.html/')
+
 @app.route('/Andrius_Gedvilas/')
 def andrius_gedvilas():
     return render_template('Andrius_Gedvilas.html')
@@ -50,6 +54,21 @@ def karolis_jasadavicius():
 def deividas_skestenis():
     return render_template('deividas_skestenis.html')
 
+@app.route('/raimonda_anisimova/')
+def raimonda_anisimova():
+    return render_template('raimonda_anisimova.html/')
+
+@app.route('/evelina_stonyte/')
+def evelina_stonyte():
+    return render_template('evelina_stonyte.html/')
+
+@app.route('/jurate_krupaviciene/')
+def jurate_krupaviciene():
+    return render_template('jurate_krupaviciene.html/')
+
+@app.route('/karolis_tamulevicius/')
+def karolis_tamulevicius():
+    return render_template('karolis_tamulevicius.html/')
+
 if __name__ == "__main__":
     app.run(debug=True)
-5
