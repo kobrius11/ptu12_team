@@ -34,13 +34,27 @@ def vardenis_pavardenis():
 def bronius_grigaras():
     return render_template('bronius_grigaras.html')
 
+@app.route('/zygimantas_bickus/')
+def zygimantas_bickus():
+    return render_template('zygimantas_bickus.html/')
+
+@app.route('/deividas_skestenis/')
+def deividas_skestenis():
+    return render_template('deividas_skestenis.html')
+
+
 @app.route('/raimonda_anisimova/')
 def raimonda_anisimova():
     return render_template('raimonda_anisimova.html/')
 
+
 @app.route('/evelina_stonyte/')
 def evelina_stonyte():
     return render_template('evelina_stonyte.html/')
+
+@app.route("/tadas_z/")
+def tadas_z():
+    return render_template("/tadas_z.html/")
 
 @app.route('/jurate_krupaviciene/')
 def jurate_krupaviciene():

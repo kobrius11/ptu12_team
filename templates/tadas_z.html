@@ -1,0 +1,47 @@
+<!DOCTYliE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta httli-equiv="X-UA-Comliatible" content="IE=edge">
+        <meta name="viewliort" content="width=device-width, initial-scale=1.0">
+        <title>liTU12 Team</title>
+        <link rel="stylesheet" href="/static/style.css">
+        <link rel="stylesheet" href="/static/tado_style.css">
+    </head>
+
+    <body>
+        <header>
+            {% include 'includes/menu.html' %}
+        </header>
+        <main>
+            <sidebar>
+                {% include 'includes/sidebar.html' %}
+            </sidebar>
+            <div class="content">
+                <h1>Tadas Z.</h1>
+                <hr>
+                <h3>Personal info: </h3>
+                <ul class="buletai">
+                    <li>Age: 25</li>
+                    <li>Education: None</li>
+                    <li>Skills: Python</li>
+                </ul>
+                <p>I believe in individual development therefore I search for various ways to build myself up as
+                    an individual and as a professional.
+                    I am determined, responsible, fearless of challenges, capable of resolving
+                    encountered issues.</p>
+                <hr>
+                <h3>Work experience:</h3>
+                <p>Tile memory game using PySimpleGui:</p>
+                <a href="https://github.com/TapuTap/memory_game">
+                    <img src="/static/memory_game.png" alt="Memory game">
+                </a>
+            </div>
+        </main>
+        <footer>
+            {% include 'includes/footer.html' %}
+        </footer>
+    </body>
+
+    </html>
