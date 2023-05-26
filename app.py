@@ -6,7 +6,10 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-<<<<<<< HEAD
+@app.route('/vardenis_pavardenis/')
+def vardenis_pavardenis():
+    return render_template('vardenis_pavardenis.html/')
+
 @app.route('/Erikas_Jankauskas/')
 def vardenis_pavardenis():
     return render_template('Erikas_Jankauskas.html/')
@@ -84,7 +87,6 @@ def jurate_krupaviciene():
 @app.route('/karolis_tamulevicius/')
 def karolis_tamulevicius():
     return render_template('karolis_tamulevicius.html/')
->>>>>>> 023b1d68f35a42e495df661cc35f3e353d4f843d
 
 if __name__ == "__main__":
     app.run(debug=True)
