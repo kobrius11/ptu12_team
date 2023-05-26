@@ -30,5 +30,9 @@ def robertas_sapronavicius():
 def mindaugas_turauskas():
     return render_template('mindaugas_turauskas.html/')
 
+@app.route('/milda_auglyte/')
+def milda_auglyte():
+    return render_template('milda_auglyte.html/')
+
 if __name__ == "__main__":
     app.run(debug=True)
