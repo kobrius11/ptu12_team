@@ -44,3 +44,7 @@ ul.menu-vertical {
 ul.menu-horizontal {
     flex-direction: row;
 }
+.broken {
+    color: #666;
+    text-decoration: line-through;
+}
