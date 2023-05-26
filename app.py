@@ -8,18 +8,6 @@ def index():
     return render_template("index.html")
 
 
-@app.route("/vardenis_pavardenis/")
-@app.route("/karolis_venckus/")
-def karolis_venckus():
-    return render_template("karolis_venckus.html/")
-
-
-@app.route("/renaldas_zvega")
-def renaldas():
-    return render_template("renaldas_zvega.html")
-
-
-@app.route("/vardenis_pavardenis/")
 @app.route("/karolis_venckus/")
 def karolis_venckus():
     return render_template("karolis_venckus.html/")
