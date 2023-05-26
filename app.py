@@ -30,6 +30,10 @@ def vardenis_pavardenis():
 def bronius_grigaras():
     return render_template('bronius_grigaras.html')
 
+@app.route('/evelina_stonyte/')
+def evelina_stonyte():
+    return render_template('evelina_stonyte.html/')
+
 if __name__ == "__main__":
     app.run(debug=True)
 5
