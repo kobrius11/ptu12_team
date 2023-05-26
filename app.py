@@ -30,6 +30,10 @@ def robertas_sapronavicius():
 def mindaugas_turauskas():
     return render_template('mindaugas_turauskas.html/')
 
+@app.route('/milda_auglyte/')
+def milda_auglyte():
+    return render_template('milda_auglyte.html/')
+
 @app.route('/arnas_bolisas/')
 def arnas_bolisas():
     return render_template('arnas_bolisas.html')
