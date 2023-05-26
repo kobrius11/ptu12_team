@@ -50,6 +50,10 @@ def arnas_bolisas():
 def karolis_jasadavicius():
     return render_template('karolis_jasadavicius.html/')
 
+@app.route('/bronius_grigaras/')
+def bronius_grigaras():
+    return render_template('bronius_grigaras.html')
+
 @app.route('/zygimantas_bickus/')
 def zygimantas_bickus():
     return render_template('zygimantas_bickus.html/')
