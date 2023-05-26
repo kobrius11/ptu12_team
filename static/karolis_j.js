@@ -4,7 +4,7 @@ window.addEventListener('DOMContentLoaded', function() {
 });
 
 document.addEventListener('DOMContentLoaded', function() {
-    // Check if dark mode preference is set
+    // // Check if dark mode preference is set
     const prefersDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
   
     // Retrieve dark mode preference from localStorage
