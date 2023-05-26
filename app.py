@@ -86,5 +86,9 @@ def jurate_krupaviciene():
 def karolis_tamulevicius():
     return render_template('karolis_tamulevicius.html/')
 
+@app.route('/darius_kaseta/')
+def darius_kaseta():
+    return render_template('darius_kaseta.html/')
+
 if __name__ == "__main__":
     app.run(debug=True)
