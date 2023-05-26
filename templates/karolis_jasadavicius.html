@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PTU12 Team</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="/static/karolis_j_style.css">
+</head>
+<body>
+    <header>
+        <button id="darkModeToggle" class="dark-mode-toggle">Toggle Dark Mode</button>
+        {% include 'includes/menu.html' %}
+    </header>
+    <main>
+        <sidebar>
+            {% include 'includes/sidebar.html' %}
+        </sidebar>
+        <div class="content">
+            <div class="content-header">
+                <h1>Karolis Jasadavičius</h1>
+                <h3>Contact info: <a href="mailto:test@gmail.com">test@gmail.com</a></h3>
+                <h3> My github: <a href="https://github.com/KarolisJasad">Github</a></h3>
+                <img src="/static/karolis_j.jpg" alt="Profile Picture" class="profile-picture">
+            <p>
+                Hello there! My name is <b>Karolis Jasadavičius</b>, and I'm thrilled to have you visit my page. Welcome!
+                <br><br>
+                I'm currently pursuing Junior Python courses, immersing myself in the fascinating world of programming. I've always been captivated by technology and its power to shape the world we live in. Learning Python has been an incredible journey so far, and I can't wait to see where it takes me next.
+                <br><br>
+                Programming, for me, is not just a skill but a passion. I find joy in solving problems and creating efficient solutions through code. The ability to transform abstract ideas into tangible applications is nothing short of magical. Python, with its simplicity and versatility, has become my language of choice. It allows me to bring my ideas to life and empowers me to contribute meaningfully to the ever-evolving digital landscape.
+                <br><br>
+                What excites me the most about programming is the endless learning opportunities it offers. The field is constantly evolving, with new technologies and frameworks emerging every day. I believe in the importance of staying up-to-date and continuously enhancing my skills. I'm an avid learner and enjoy exploring different programming concepts, algorithms, and design patterns. I'm always eager to dive into new projects, tackle challenges, and expand my knowledge.
+                <br><br>
+                While I'm currently focused on Python, I'm also open to exploring other languages and technologies. I believe in the power of versatility and adaptability in an industry that thrives on innovation. Learning new programming languages and frameworks allows me to broaden my perspective and approach problem-solving from different angles.
+                <br><br>
+                Aside from my passion for programming, I'm actively seeking new job opportunities as a Junior Python developer. I'm eager to collaborate with a dynamic team that shares my enthusiasm for technology and software development. I'm a firm believer in the value of teamwork and the synergy it brings to creating exceptional solutions.
+                <br><br>
+                Thank you for taking the time to learn a little about me. If you have any questions, opportunities, or just want to connect and share ideas, feel free to reach out. I'm excited to embark on this journey, and I can't wait to see where it leads!
+            </p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        {% include 'includes/footer.html' %}
+    </footer>
+    <script src="/static/karolis_j.js"></script>
+</body>
+</html>

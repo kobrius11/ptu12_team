@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PTU12 Team</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <style>
+        p {
+            white-space: pre-line;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        {% include 'includes/menu.html' %}
+    </header>
+    <main>
+        <sidebar>
+            {% include 'includes/sidebar.html' %}
+        </sidebar>
+        <div class="content">
+            <h1>Andrius Gedvilas</h1>
+            <img src="/static/my_photo.jpg" alt="Andrius Gedvilas">
+            <p>Mano vardas yra Andrius Gedvilas, man yra 38 metai. 
+                Aš esu aistringas Python programavimo mėgėjas. 
+                Man labai patinka išmokti ir tobulinti savo įgūdžius šioje programavimo kalboje. 
+                Mano Python programavimo žinios yra puikios, 
+                ir aš nuolat stengiuosi tobulėti ir sekti naujausias tendencijas šioje srityje. 
+                Mano aistra kodavimui leidžia man sukurti funkcionalius ir efektyvius sprendimus, 
+                ir aš visada siekiu geresnių programos kokybių.</p>
+        </div>
+    </main>
+    <footer>
+        {% include 'includes/footer.html' %}
+    </footer>
+</body>
+</html>
