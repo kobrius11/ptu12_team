@@ -44,7 +44,11 @@ ul.menu-vertical {
 ul.menu-horizontal {
     flex-direction: row;
 }
-.broken {
-    color: #666;
-    text-decoration: line-through;
+.mantvydo {
+    color: #fe84c7;
+    text-decoration: silver;
 }
+img {
+    max-width: 100%;
+    height: auto;
+  }
