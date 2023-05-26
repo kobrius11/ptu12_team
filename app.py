@@ -50,13 +50,19 @@ def arnas_bolisas():
 def karolis_jasadavicius():
     return render_template('karolis_jasadavicius.html/')
 
+@app.route('/zygimantas_bickus/')
+def zygimantas_bickus():
+    return render_template('zygimantas_bickus.html/')
+
 @app.route('/deividas_skestenis/')
 def deividas_skestenis():
     return render_template('deividas_skestenis.html')
 
+
 @app.route('/raimonda_anisimova/')
 def raimonda_anisimova():
     return render_template('raimonda_anisimova.html/')
+
 
 @app.route('/evelina_stonyte/')
 def evelina_stonyte():
