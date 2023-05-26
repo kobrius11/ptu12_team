@@ -34,6 +34,10 @@ def mindaugas_turauskas():
 def arnas_bolisas():
     return render_template('arnas_bolisas.html')
 
+@app.route('/karolis_jasadavicius/')
+def karolis_jasadavicius():
+    return render_template('karolis_jasadavicius.html/')
+
 if __name__ == "__main__":
     app.run(debug=True)
 5
