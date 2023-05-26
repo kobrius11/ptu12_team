@@ -54,6 +54,11 @@ def karolis_jasadavicius():
 def zygimantas_bickus():
     return render_template('zygimantas_bickus.html/')
 
+@app.route('/deividas_skestenis/')
+def deividas_skestenis():
+    return render_template('deividas_skestenis.html')
+
+
 @app.route('/raimonda_anisimova/')
 def raimonda_anisimova():
     return render_template('raimonda_anisimova.html/')
