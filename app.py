@@ -62,6 +62,13 @@ def evelina_stonyte():
 def tadas_z():
     return render_template("/tadas_z.html/")
 
+@app.route('/jurate_krupaviciene/')
+def jurate_krupaviciene():
+    return render_template('jurate_krupaviciene.html/')
+
+@app.route('/karolis_tamulevicius/')
+def karolis_tamulevicius():
+    return render_template('karolis_tamulevicius.html/')
+
 if __name__ == "__main__":
     app.run(debug=True)
-5
