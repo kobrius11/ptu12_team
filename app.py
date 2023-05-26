@@ -62,5 +62,9 @@ def evelina_stonyte():
 def jurate_krupaviciene():
     return render_template('jurate_krupaviciene.html/')
 
+@app.route('/karolis_tamulevicius/')
+def karolis_tamulevicius():
+    return render_template('karolis_tamulevicius.html/')
+
 if __name__ == "__main__":
     app.run(debug=True)
