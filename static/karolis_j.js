@@ -4,7 +4,7 @@ window.addEventListener('DOMContentLoaded', function() {
 });
 
 document.addEventListener('DOMContentLoaded', function() {
-    // Check if dark mode preference is set
+    // // Check if dark mode preference is set
     const prefersDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
   
     // Retrieve dark mode preference from localStorage
@@ -20,6 +20,9 @@ document.addEventListener('DOMContentLoaded', function() {
     // Apply dark mode styles
     function enableDarkMode() {
         document.body.classList.add('dark-mode');
+        document.querySelector('header').style.backgroundColor = '#181818';
+        document.querySelector('footer').style.backgroundColor = '#181818';
+        document.querySelector('main sidebar').style.backgroundColor = '#181818';
         document.querySelector('h1').style.color = '#ffffff'; // Set h1 text color to white
         localStorage.setItem('darkMode', true);
         toggleButton.textContent = 'Disable Dark Mode';
@@ -28,6 +31,9 @@ document.addEventListener('DOMContentLoaded', function() {
     // Remove dark mode styles
     function disableDarkMode() {
         document.body.classList.remove('dark-mode');
+        document.querySelector('header').style.backgroundColor = '#eee';
+        document.querySelector('footer').style.backgroundColor = '#eee';
+        document.querySelector('main sidebar').style.backgroundColor = '#eee';
         document.querySelector('h1').style.color = '#333333'; // Set h1 text color to default
         localStorage.setItem('darkMode', false);
         toggleButton.textContent = 'Enable Dark Mode';
